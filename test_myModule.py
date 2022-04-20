@@ -10,7 +10,6 @@ class TestSquare(unittest.TestCase):
             # test when 3.0 is given as input the output is 9.0.
         self.assertNotEqual(square(-3), -9)  
             # test when -3 is given as input the output is not -9.
-            
 
 class TestDouble(unittest.TestCase): 
     def test1(self): 
